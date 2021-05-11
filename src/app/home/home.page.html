@@ -1,0 +1,28 @@
+<!--<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>-->
+
+<ion-content class="auth-form">
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <img alt="logo" id="logo" align-center height="150" src="assets/images/logo.png">
+      </ion-col>
+    </ion-row>
+    <ion-row class="field">
+      <ion-col>
+        <ion-button [routerLink]="['/registration']" expand="block" color="primary">Register</ion-button>
+
+        <span class="divider line one-line">or</span>
+
+        <span class="already">Already a user?</span>
+
+        <ion-button [routerLink]="['/login']" expand="block" color="success">Sign In</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

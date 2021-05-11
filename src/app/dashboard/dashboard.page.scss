@@ -1,0 +1,25 @@
+#map_canvas {
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+  ion-alert {
+    z-index: 99999 !important;
+  }
+
+  .deleteButton {
+    background: transparent;
+    border: 1px solid #f00;
+    border-radius: 3em;
+    color: #f00;
+    display: inline-block;
+    font-size: 16px;
+    height: 40px;
+    line-height: 2px;
+    margin: 0 0 8px;
+    padding: 0;
+    text-align: center;
+    width: 40px;
+    padding-left: 30px;
+    }
+    

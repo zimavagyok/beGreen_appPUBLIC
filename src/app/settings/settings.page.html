@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar>
+      <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+    <ion-title>
+      Settings
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+<div class="ion-padding-top ion-text-center">
+  <ion-list>
+    <ion-list-header>
+      <h3>Map settings</h3>
+    </ion-list-header>
+    <ion-item>
+      <ion-label style="top:50%;">Radius</ion-label>
+      <ion-range min="1" max="25" pin color="primary" [(ngModel)]="radius" (ionChange)="setValue()">
+        <ion-icon ios="ios-locate" md="md-locate" slot="start" size="medium"></ion-icon>
+      </ion-range>
+    </ion-item>
+  </ion-list>
+</div>
+
+</ion-content>
